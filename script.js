@@ -33,7 +33,7 @@ window.onload = function (event) {
   }
   // Part 5
   const pastRaces = document.querySelector('#past-races')
-  pastRaces.children[3].remove()
+  pastRaces.children[3].remove() //Luckily, question three already happened...
 
   // Part 6
   const newRace = document.createElement('LI')
